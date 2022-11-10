@@ -3,7 +3,7 @@
 ## Descrição
 
 A empresa de vendas de produtos de e-commerce XYZ Corp. contratou um novo time de dados onde eles estariam sido alocados em um novo projeto idealizado pelo seu fundador.
-O seu desejo é de existir um sistema inteligente onde é possível realizar uma previsão em tempo real de que uma nova jornada do usuário no seu website existe uma intenção de compra desse visitante.
+O seu desejo é de existir um sistema inteligente onde é possível realizar uma previsão, em tempo real, de que uma nova jornada do usuário no seu website existe uma intenção de compra desse visitante.
 
 ## Dados
 
@@ -11,7 +11,7 @@ Estamos atuando em um cenário de aprendizado e portanto já possuímos os dados
 
 Os dados consiste em 12330 sessões de usuários distintos no site, esses dados foram capturados durante o período de um ano e com isso foi possível capturar dados sem tendências de campanhas de marketing, dias de comemorações e pouca informação sobre os usuários.
 
-Portanto teremos dados sobre durante visitas desses usuários, juntamente com algumas informações da sessão e do usuário e com isso podemos descrever sobre os nossos dados.
+Portanto teremos dados sobre durante visitas desses usuários, juntamente com algumas informações da sessão e do usuário e com isso podemos descrever sobre os nossos dados, para realizar o download [acesse esse link.](https://docs.google.com/spreadsheets/d/1HMdb5GkH3di0bFEH4CRY8k487UbToP2APplGhVbqIjE/edit#gid=986013730)
 
 ### Descrição dos dados
 
@@ -39,7 +39,27 @@ Portanto teremos dados sobre durante visitas desses usuários, juntamente com al
 
 ## Solução
 ### Planejamento
-TBD
+Em todo projeto de data science se inicia no planejamento para que fique claro qual é o problema e quais são as soluções para o negócio prosperar e o projeto não ter um fim trágico.
+#### Produto de dados
+Nada mais juntos do que iniciar o projeto tendo como suporte uma documentação com o escopo bem definido e que o problema atual esteja bem contextualizado e os possíveis riscos, para tal iremos utilizar o framework [Data Product Canvas](https://medium.com/@leandroscarvalho/data-product-canvas-a-practical-framework-for-building-high-performance-data-products-7a1717f79f0) para que fique bem organizado, para acessar o canvas do nosso projeto [Data Product Canvas - Customer Intention Purchasing](https://docs.google.com/spreadsheets/d/17nxaMoUPMBykIW7YVEtPSSQw32izteSuFG6_QoXxhdc/edit?usp=sharing).
+
+Com esse canvas preenchido com parceria de todas as áreas/pessoas interessadas no projeto, se faz possível a continuação do projeto e também serve como documentação para consulta posteriores de manutenção e/ou melhorias. 
+
+#### Entendendo o problema de negócio
+
+O desejo do fundado consiste em ter uma predição de intenção de comprar de um novo visitante na sua loja, porém não diz especificamente quais seriam, por exemplo, os possíveis ganhos, qual seria a atuação em caso de ter a inteção positiva e como atualmente é feito, caso tenha, portanto em um cenário de estudo vamos realizar algumas definições hipotéticas.
+
+**Qual é o objetivo da empresa?** Com esse sistema de predição de intenção a empresa deseja intensificar as propagandas de produtos para que o usuário feche a compra e além disso pode-se criar ofertas personalizadas para que o usuário efetue a compra
+
+**Qual é o processo atual da empresa?** Atualmente a empresa não contém nenhum processo de predizer intenção de compra, o que é feito são ofertas de marketing geral, com esse projeto é possível melhorar o impacto do marketing e gerando maior receita para a empresa
+
+**Qual é o possível potencial de impacto com o projeto?** Com o usuário mais propenso a realizar uma compra, o projeto pode impactar diretamente em transformar a intenção em ação de compra, melhorando as métricas de conversão e aumentando o faturamento da empresa
+
+**Quais são os possíveis riscos?** O usuário pode receber diversas ofertas sem necessidade pois o projeto indicou que ele tem a intenção de comprar gerando um atrito com o usuário perdendo assim um comprador, de outro lado, podemos deixar de ofertar bons produtos ou boas ofertas que levam o usuário a realizar a compra caso o projeto não ter classificado esse usuário corretamente
+
+#### Possíveis soluções
+
+#### Machine learning canvas
 ### Arquitetura
 
 TBD
@@ -48,6 +68,10 @@ TBD
 
 TBD
 ## Insights
+
+TBD
+
+## Resultados
 
 TBD
 
