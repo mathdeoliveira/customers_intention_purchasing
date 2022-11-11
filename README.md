@@ -47,7 +47,7 @@ Com esse canvas preenchido com parceria de todas as áreas/pessoas interessadas 
 
 #### Entendendo o problema de negócio
 
-O desejo do fundado consiste em ter uma predição de intenção de comprar de um novo visitante na sua loja, porém não diz especificamente quais seriam, por exemplo, os possíveis ganhos, qual seria a atuação em caso de ter a inteção positiva e como atualmente é feito, caso tenha, portanto em um cenário de estudo vamos realizar algumas definições hipotéticas.
+O desejo do fundador consiste em ter uma predição de intenção de comprar de um novo visitante na sua loja, porém não diz especificamente quais seriam, por exemplo, os possíveis ganhos, qual seria a atuação em caso de ter a intenção positiva e como atualmente é feito, caso tenha, portanto em um cenário de estudo vamos realizar algumas definições hipotéticas.
 
 **Qual é o objetivo da empresa?** Com esse sistema de predição de intenção a empresa deseja intensificar as propagandas de produtos para que o usuário feche a compra e além disso pode-se criar ofertas personalizadas para que o usuário efetue a compra
 
@@ -59,10 +59,21 @@ O desejo do fundado consiste em ter uma predição de intenção de comprar de u
 
 #### Possíveis soluções
 
+Foi levantado as seguintes possíveis soluções:
+- Um produto suportado por machine learning prevendo em tempo real a intenção de compra;	
+- Dado uma navegação de usuário o sistema deve auxiliar as áreas interessadas que aquele usuário tem uma intenção de compra e com isso cada uma terá as suas demandas;
+- A solução será um modelo supervisionado de classificação;
+- Solução deve responder à uma requisição feita por um cliente e a saída deve ser uma probabilidade da intenção de compras em tempo real;
+
 #### Machine learning canvas
+
+OBS: Será realizado após as experimentações e definição do modelo final
+
 ### Arquitetura
 
-TBD
+<p align="center" width="100%">
+    <img width="60%" src="https://i.imgur.com/SGriLgE.png">
+</p>
 
 ### Estrutura do projeto
 
