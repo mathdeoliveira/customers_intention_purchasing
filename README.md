@@ -77,7 +77,14 @@ OBS: Será realizado após as experimentações e definição do modelo final
 
 ### Estrutura do projeto
 
-TBD
+config: arquivos de configurações
+data: dados para o projeto
+docs: documentações do projeto
+models: arquivos serializados dos modelos utilizandos no projeto
+notebooks: notebooks contendo os processos descritos do projeto
+src: código fonte do projeto
+tests: arquivos de testse dos códigos do projeto
+
 ## Insights
 
 TBD
