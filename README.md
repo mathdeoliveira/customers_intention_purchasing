@@ -72,7 +72,7 @@ OBS: Será realizado após as experimentações e definição do modelo final
 ### Arquitetura
 
 <p align="center" width="100%">
-    <img width="60%" src="https://i.imgur.com/SGriLgE.png">
+    <img width="80%" src="https://i.imgur.com/SGriLgE.png">
 </p>
 
 ### Estrutura do projeto
@@ -87,7 +87,19 @@ tests: arquivos de testse dos códigos do projeto
 
 ## Insights
 
-TBD
+Nesta seção será disponibilizados alguns insights retirados da etapa de análise exploratória dos dados, para mais informações acessar o notebook: ```1-eda```.
+
+### Análise Univariada
+1. Os dados estão desbalanceados, onde há ~84% para a classe False.
+2. Usuários que acessaram o site utilizaram o browser 2 ~65% de todos os acessos
+
+### Análise Bivariada
+1. Usuários que compraram acessam quase o dobro de páginas relacionada ao produto do que usuários sem compra
+2. Usuários que tiveram a compra realizada possuem taxas de bounce menores do que usuários sem compra, tornando um fator determinante em definição de uma inteção de compra.
+
+### Análise Multivariada
+1. Identificamos que quando há uma compra existente o valor da página é exponencialmente maior que uando não existe a conclusão da compra
+2. Usuários relacionados aos trafégos: 15, 16, 17, 18 e 19 são usuários que tendem a entrar no site e logo sair e também usuários que realizaram a compra originados do trafégo 14 são usuários que tem uma taxa de bounce maior do que usuários que não tiveram a compra.
 
 ## Resultados
 
