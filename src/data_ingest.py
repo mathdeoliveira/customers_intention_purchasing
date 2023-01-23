@@ -23,7 +23,6 @@ class DataIngest:
         return:
         data from raw directory: pandas Dataframe
         """
-        logger.info(self.data_raw_path)
         logger.info("Starting loading data...")
 
         loaded_data = pd.read_csv(self._path_raw_data())
