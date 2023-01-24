@@ -1,2 +1,37 @@
-variables: 
-  categorical_vars: ['OperatingSystems', 'Browser', 'Region', 'TrafficType', 'VisitorType', 'Weekend']
+defaults:  
+  - _self_  
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+  
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+enconding:
+  rare_enc: 
+      - Month
+      - OperatingSystems
+      - Browser
+      - Region
+      - TrafficType
+  rare_enc_n_categories: 5
+  onehot_enc:
+      - Month 
+      - OperatingSystems
+      - Browser
+      - Region
+      - TrafficType
+      - VisitorType
+      - Weekend
+  minmax_scaler:
+      - Administrative 
+      - Administrative_Duration 
+      - Informational 
+      - Informational_Duration 
+      - ProductRelated
+      - ProductRelated_Duration 
+      - BounceRates
+      - ExitRates 
+      - PageValues
+      - SpecialDay

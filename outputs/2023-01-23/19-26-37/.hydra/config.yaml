@@ -1,8 +1,0 @@
-variables:
-  categorical_vars:
-  - OperatingSystems
-  - Browser
-  - Region
-  - TrafficType
-  - VisitorType
-  - Weekend

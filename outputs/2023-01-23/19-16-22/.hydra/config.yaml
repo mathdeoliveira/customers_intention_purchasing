@@ -1,8 +1,0 @@
-process:
-  to_category_features:
-  - OperatingSystems
-  - Browser
-  - Region
-  - TrafficType
-  - VisitorType
-  - Weekend
