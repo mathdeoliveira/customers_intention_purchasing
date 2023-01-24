@@ -1,5 +1,0 @@
-data: data1
-variables:
-  categorical_vars:
-  - OperatingSystems
-  - Browser
