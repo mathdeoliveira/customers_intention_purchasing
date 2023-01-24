@@ -11,7 +11,13 @@ class DataIngest:
     """Class Data Ingesting"""
 
     def __init__(self) -> None:
-        """ """
+        """
+        Initialize the class.
+        
+        This function sets the following attributes:
+        data_raw_path : str : the directory where the raw data csv file is located.
+        data_raw_name : str : the name of the raw data csv file
+        """
         self.data_raw_path = os.path.join(
             os.path.dirname(os.path.abspath(__file__)), "../data/raw"
         )
@@ -23,7 +29,6 @@ class DataIngest:
         return:
         data from raw directory: pandas Dataframe
         """
-        logger.info(self.data_raw_path)
         logger.info("Starting loading data...")
 
         loaded_data = pd.read_csv(self._path_raw_data())

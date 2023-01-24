@@ -83,7 +83,7 @@ docs: documentações do projeto
 models: arquivos serializados dos modelos utilizandos no projeto
 notebooks: notebooks contendo os processos descritos do projeto
 src: código fonte do projeto
-tests: arquivos de testse dos códigos do projeto
+tests: arquivos de testes dos códigos do projeto
 
 ## Insights
 
@@ -107,4 +107,14 @@ TBD
 
 ## Como rodar o projeto 
 
-TBD
+- Etapa de ambiente
+1. Possuir o Python instalado na versão 3.9.12 **``` conda create -n venv python=3.9.12 ```**
+2. Clonar o repositório do [(GitHub)](https://github.com/mathdeoliveira/customers_intention_purchasing)
+3. Realizar o download dos arquivos do Google Sheets [(clique aqui)](https://docs.google.com/spreadsheets/d/1HMdb5GkH3di0bFEH4CRY8k487UbToP2APplGhVbqIjE/edit#gid=986013730) e insira na pasta **```data/raw```**
+4. Entrar no diretório raiz **```/customers_intention_purchasing```**
+5. Instalar o arquivo requirements.txt **```pip install -r requirements.txt```**
+
+- Treinamento do modelo
+1. Em um novo terminal com o ambiente virtual ativado executar: **```make mlflow```** para iniciar o MLFlow
+2. Para iniciar o treinamento, em um novo terminal executar: **```make train```**
+3. Para acompanhar e monitorar o treinamento, abrir em um navegador o MLFlow UI no endereço: **```http://127.0.0.1:5000/```** (OBS: caso dê erro pois a porta já está sendo usada por outra aplicação olhar a [Documentação.](https://www.mlflow.org/docs/latest/tracking.html#tracking-ui)
