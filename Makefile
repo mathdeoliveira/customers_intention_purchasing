@@ -10,3 +10,6 @@ mlflow-shutdown:
 quality_checks:
 	isort src/
 	black src/
+
+optimize:
+	python src/optimization.py
