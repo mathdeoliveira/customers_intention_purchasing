@@ -1,0 +1,8 @@
+params:
+  bagging_fraction: 0.6339645778467978
+  bagging_freq: 5
+  feature_fraction: 0.42247532435052854
+  lambda_l1: 7.287833536468306
+  lambda_l2: 2.9060532039993636
+  min_child_samples: 98
+  num_leaves: 64

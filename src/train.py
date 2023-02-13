@@ -15,6 +15,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
+import lightgbm
 
 from split_data import SplitData
 from utils import classification_metrics, load_train_data, name_category_features, save_model
@@ -116,9 +117,10 @@ def train(config: DictConfig):
         models = {
             'LogisticRegression': LogisticRegression(max_iter=1000),
             'XGBClassifier': XGBClassifier(),
-            'GradientBoostingRegressor': GradientBoostingClassifier(),
+            'GradientBoostingClassifier': GradientBoostingClassifier(),
             'RandomForestClassifier': RandomForestClassifier(),
             'DecisionTreeClassifier': DecisionTreeClassifier(),
+            'LGBMClassifier': lightgbm.LGBMClassifier()
         }
 
         for model_name, model in models.items():
