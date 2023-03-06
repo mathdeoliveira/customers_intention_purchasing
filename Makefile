@@ -7,6 +7,9 @@ mlflow:
 mlflow-shutdown:
 	fuser -k 5000/tcp
 
+cf-shutdown:
+	fuser -k 8080/tcp
+
 quality_checks:
 	isort src/
 	black src/
